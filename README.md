@@ -25,6 +25,7 @@ Video-Player: MVP <br>
 ### Extra
 Quick-Launcher: Rofi <br>
 Compositor: picom <br>
+Archiver: XArchiver <br>
 Appearance-Settings: lxappearance <br>
 Calculator: Mate-calculator <br>
 Dock: Plank <br>
