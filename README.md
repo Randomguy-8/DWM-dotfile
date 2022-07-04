@@ -1,6 +1,13 @@
 # DWM
 
 
+## Copy IT!
+```
+./COPY.sh
+```
+
+
+## Main Programs
 Window-Manager: DWM <br> 
 Terminal: St <br>
 Text-Editor: Geany <br>
@@ -8,6 +15,7 @@ Filemanager: Thunar <br>
 Picture-Viewer: Viewnior <br>
 Video-Player: MVP <br>
 <br>
+## Extra Programs
 Quick-Launcher: Rofi <br>
 Compositor: picom <br>
 Appearance-Settings: lxappearance <br>
@@ -21,7 +29,7 @@ Wallpaper: xwallpaper <br>
 NightLight: Redshift <br>
 
 
-## Copy IT!
-```
-./COPY.sh
-```
+## Source
+
+### Wallpaper
+Wallpapers ``/HOME/Pictures/Wallpapers```
