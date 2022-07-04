@@ -30,6 +30,12 @@ Extra-Terminal: xfce4-terminal <br>
 Wallpaper: xwallpaper <br>
 NightLight: Redshift <br>
 
+## Themes
+
+Icon Theme ``Zairo`` (Not Included) <br>
+GTK theme ``Arc-Dark`` (Need to set Default)
+
+
 
 ## Sources
 
