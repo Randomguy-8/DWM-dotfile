@@ -71,8 +71,9 @@ Controle Size and layout ``SUPER + [ UP, DOWN, LEFT, RIGHT ]`` <br>
 
 ## MISC
 
-To Open New Window Manager on different tty:
+1. To Open New Window Manager on different tty:
 ```
 slm -f
 ```
 
+2. Edit ``bin/auto-redshift`` According to your Preference.
