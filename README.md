@@ -1,21 +1,23 @@
 # DWM
 
+V 6.3
 
 ## Copy IT!
 ```
+chmod 777 COPY.sh
 ./COPY.sh
-```
+``` 
 
+## Programs
 
-## Main Programs
+### Main
 Window-Manager: DWM <br> 
 Terminal: St <br>
 Text-Editor: Geany <br>
 Filemanager: Thunar <br>
 Picture-Viewer: Viewnior <br>
 Video-Player: MVP <br>
-<br>
-## Extra Programs
+### Extra
 Quick-Launcher: Rofi <br>
 Compositor: picom <br>
 Appearance-Settings: lxappearance <br>
@@ -29,7 +31,8 @@ Wallpaper: xwallpaper <br>
 NightLight: Redshift <br>
 
 
-## Source
+## Sources
 
-### Wallpaper
-Wallpapers ``/HOME/Pictures/Wallpapers```
+Wallpapers ``/HOME/Pictures/Wallpapers`` <br>
+DWM ``/HOME/Source/dwm`` <br>
+St ``/HOME/Source/st`` <br>
