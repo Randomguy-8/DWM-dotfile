@@ -37,6 +37,7 @@ Extra-Terminal: xfce4-terminal <br>
 Wallpaper: xwallpaper <br>
 NightLight: Redshift <br>
 
+
 ## Themes
 
 Icon Theme ``Zairo`` (Not Included) <br>
@@ -77,6 +78,7 @@ Controle Size and layout ``SUPER + [ UP, DOWN, LEFT, RIGHT ]`` <br>
 ```
 slm -f
 ```
-
-2. Edit ``bin/auto-redshift`` According to your Preference.
-3. Edit ``$HOME/.xintric`` [xwallpaper --stretch ... ] to change Wallpaper.
+2. Install ``status monitor`` from [suckless](https://dwm.suckless.org/status_monitor/) Repositories to make dwm-bar work.
+3. Edit ``bin/auto-redshift`` According to your Preference.
+4. Edit ``$HOME/.xintric`` [xwallpaper --stretch ... ] to change Wallpaper.
+5. Edit ``bin/dwm-bar`` To Config your dwm bar information.
