@@ -26,6 +26,7 @@ Video-Player: MVP <br>
 Quick-Launcher: Rofi <br>
 Compositor: picom <br>
 Archiver: XArchiver <br>
+Settings-Manager: xfce4-settings <br>
 Appearance-Settings: lxappearance <br>
 Calculator: Mate-calculator <br>
 Dock: Plank <br>
@@ -78,3 +79,4 @@ slm -f
 ```
 
 2. Edit ``bin/auto-redshift`` According to your Preference.
+3. Edit ``$HOME/.xintric`` [xwallpaper --stretch ... ] to change Wallpaper.
