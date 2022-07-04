@@ -1,0 +1,12 @@
+#! /bin/bash
+
+if [[ -z $(ps -e | grep startx) ]]; then
+	startx 
+elif [[ $1 == "-f" || $1 == "--force" ]]; then
+	echo -en "Do your really wnat to open a new Window Manager [Y/N] " && read input1
+	if [[ $input1 == "y" || $input1 == "Y" ]]; then
+		startx 2>/dev/null
+	fi
+fi
+
+exit

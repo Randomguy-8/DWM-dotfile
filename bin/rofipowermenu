@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+## Default
+STYLE="adaptive"
+ddir="$HOME/.config/rofi/dialogs"
+
+rofi_command="rofi -theme $HOME/.config/rofi/$STYLE/powermenu.rasi"
+
+uptime=$(uptime -p | sed -e 's/up //g')
+
+## Buttons
+## layout=`cat $HOME/.config/rofi/$STYLE/powermenu.rasi | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/'`
+    shutdown="Shutdown"
+    reboot="Restart"
+    if [[ $(ps -e | grep dwm | wc -l) -eq 1 ]]; then
+        logout="Logout"
+    fi
+
+# Ask for confirmation
+rdialog () {
+rofi -dmenu\
+    -i\
+    -no-fixed-num-lines\
+    -p "Are You Sure? : "\
+    -theme "$ddir/confirm.rasi"
+}
+
+# Display Help
+show_msg() {
+    rofi -theme "$ddir/askpass.rasi" -e "Options : yes / no / y / n"
+}
+
+# Variable passed to rofi
+    if [[ $(ps -e | grep dwm | wc -l) -ne 1 ]]; then
+        options="$reboot\n$shutdown"
+    else
+        options="$logout\n$reboot\n$shutdown"
+    fi
+
+chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
+case $chosen in
+    $shutdown)
+        sudo halt
+        ;;
+    $reboot)
+        sudo reboot
+        ;;
+    $logout)
+        sudo kill $(ps -e | grep dwm | cut -c -6)
+        ;;
+esac
+
