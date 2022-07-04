@@ -18,6 +18,7 @@ chmod 777 COPY.sh
 Window-Manager: DWM <br> 
 Terminal: St <br>
 Text-Editor: Geany <br>
+Browser: Firefox <br>
 Filemanager: Thunar <br>
 Picture-Viewer: Viewnior <br>
 Video-Player: MVP <br>
@@ -47,4 +48,31 @@ Wallpapers ``/HOME/Pictures/Wallpapers`` <br>
 DWM ``/HOME/Source/dwm`` <br>
 St ``/HOME/Source/st`` <br>
 
+
+## Keyboard Shortcuts
+
+Rofi App Search ``SUPER + F3`` <br> 
+Rofi Quick Cmd ``SUPER + F2`` <br>
+Rofi Power Menu ``CTRL + ALT + DELETE`` <br>
+<br>
+Terminal ``SUPER + t`` <br>
+Browser ``SUPER + b`` <br>
+Text-Editor ``SUPER + a`` <br>
+File-Manager ``SUPER + f`` <br>
+<br>
+Layout Null ``SUPER + SHIFT + N`` <br>
+Layout Tile ``SUPER + SHIFT + T`` <br>
+Layout monocle ``SUPER + SHIFT + M`` <br>
+<br>
+Cycle Active Windows ``ALT + TAB`` <br>
+Switch Desktop ``SUPER + TAB`` <br>
+<br>
+Controle Size and layout ``SUPER + [ UP, DOWN, LEFT, RIGHT ]`` <br>
+
+## MISC
+
+To Open New Window Manager on different tty:
+```
+slm -f
+```
 
