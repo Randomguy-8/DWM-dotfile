@@ -2,6 +2,10 @@
 
 V 6.3
 
+<img src="https://github.com/Randomguy-8/DWM-dotfile/blob/main/src/img1.png">
+<img src="https://github.com/Randomguy-8/DWM-dotfile/blob/main/src/img2.png">
+<img src="https://github.com/Randomguy-8/DWM-dotfile/blob/main/src/img3.png">
+
 ## Copy IT!
 ```
 chmod 777 COPY.sh
@@ -42,3 +46,5 @@ GTK theme ``Arc-Dark`` (Need to set Default)
 Wallpapers ``/HOME/Pictures/Wallpapers`` <br>
 DWM ``/HOME/Source/dwm`` <br>
 St ``/HOME/Source/st`` <br>
+
+
