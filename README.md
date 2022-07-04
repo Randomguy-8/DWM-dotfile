@@ -1,2 +1,7 @@
-# DWM-dotfile
-Desktop: DWM 6.3
+# DWM
+
+
+Terminal: St
+Texteditor: Geany
+Filemanager: Thunar
+QuicLauncher: Rofi
