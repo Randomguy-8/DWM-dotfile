@@ -1,0 +1,4 @@
+#!/bin/bash
+
+## Useless file to autostart redshift on dwm 
+redshift -O 5000
