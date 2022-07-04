@@ -1,7 +1,7 @@
 # DWM
 
 
-Terminal: St
-Texteditor: Geany
-Filemanager: Thunar
-QuicLauncher: Rofi
+Terminal: St <br>
+Texteditor: Geany <br>
+Filemanager: Thunar <br>
+QuicLauncher: Rofi <br>
